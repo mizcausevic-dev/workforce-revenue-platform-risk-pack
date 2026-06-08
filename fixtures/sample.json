@@ -1,0 +1,53 @@
+{
+  "product": "Workforce Revenue Platform Risk Pack",
+  "vertical": "HR Tech / Employment AI",
+  "signals": [
+    "Salesforce",
+    "HubSpot",
+    "Gainsight",
+    "ChurnZero",
+    "dbt",
+    "Databricks",
+    "Looker",
+    "Sigma",
+    "Microsoft Entra ID",
+    "Palo Alto",
+    "Wiz",
+    "SailPoint",
+    "Saviynt",
+    "GitHub and GitLab",
+    "Terraform",
+    "Pulumi",
+    "Datadog",
+    "New Relic",
+    "ServiceNow",
+    "Workato",
+    "MuleSoft",
+    "Zapier",
+    "Workday",
+    "Rippling"
+  ],
+  "lanes": [
+    {
+      "lane": "exposure",
+      "owner": "Board sponsor",
+      "score": 84,
+      "issue": "Enterprise platform signals are scattered across disconnected vendor systems",
+      "next": "Normalize signal ownership and attach each system to one executive owner"
+    },
+    {
+      "lane": "savings",
+      "owner": "Finance operator",
+      "score": 79,
+      "issue": "Duplicated licenses and overlapping admin surfaces hide recoverable savings",
+      "next": "Group duplicate capabilities and quantify consolidation leverage"
+    },
+    {
+      "lane": "investment",
+      "owner": "Operating partner",
+      "score": 91,
+      "issue": "High-confidence platforms need clearer investment sequencing",
+      "next": "Create a board-ready investment narrative tied to risk and margin proof"
+    }
+  ]
+}
