@@ -1,0 +1,50 @@
+{
+  "product": "Workforce Revenue Platform Risk Pack",
+  "vertical": "HR Tech / Employment AI",
+  "signals": [
+    "Salesforce",
+    "HubSpot",
+    "Gainsight",
+    "ChurnZero",
+    "dbt",
+    "Databricks",
+    "Looker",
+    "Sigma",
+    "Microsoft Entra ID",
+    "Palo Alto",
+    "Wiz",
+    "SailPoint",
+    "Saviynt",
+    "GitHub and GitLab",
+    "Terraform",
+    "Pulumi",
+    "Datadog",
+    "New Relic",
+    "ServiceNow",
+    "Workato",
+    "MuleSoft",
+    "Zapier",
+    "Workday",
+    "Rippling"
+  ],
+  "averageScore": 85,
+  "priorityLane": "investment",
+  "laneCount": 3,
+  "nextActions": [
+    {
+      "lane": "exposure",
+      "owner": "Board sponsor",
+      "next": "Normalize signal ownership and attach each system to one executive owner"
+    },
+    {
+      "lane": "savings",
+      "owner": "Finance operator",
+      "next": "Group duplicate capabilities and quantify consolidation leverage"
+    },
+    {
+      "lane": "investment",
+      "owner": "Operating partner",
+      "next": "Create a board-ready investment narrative tied to risk and margin proof"
+    }
+  ]
+}

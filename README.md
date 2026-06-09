@@ -1,63 +1,35 @@
-# workforce-revenue-platform-risk-pack
+# Workforce Revenue Platform Risk Pack
 
-Workforce Revenue Platform Risk Pack is a Kinetic Gain benchmark-pack repo for enterprise platform and company signals.
+Workforce Revenue Platform Risk Pack is a Kinetic Gain enterprise signal benchmark for HR Tech / Employment AI. It turns scattered SaaS, platform, security, analytics, integration, and workforce signals into a board-ready decision packet.
 
-It evaluates **Salesforce, HubSpot, Gainsight, ChurnZero, dbt, Databricks, Looker, Sigma, Microsoft Entra ID, Palo Alto, Wiz, SailPoint, Saviynt, GitHub and GitLab, Terraform, Pulumi, Datadog, New Relic, ServiceNow, Workato, MuleSoft, Zapier, Workday, Rippling** through one board-readable operating lens: where the estate is exposed, where savings are available, where investment is justified, and what evidence leaders can show.
+## Buyer problem
 
-## Signal coverage
+Enterprise leaders rarely need another vendor inventory. They need a defensible answer to four questions:
 
-- Salesforce
-- HubSpot
-- Gainsight
-- ChurnZero
-- dbt
-- Databricks
-- Looker
-- Sigma
-- Microsoft Entra ID
-- Palo Alto
-- Wiz
-- SailPoint
-- Saviynt
-- GitHub and GitLab
-- Terraform
-- Pulumi
-- Datadog
-- New Relic
-- ServiceNow
-- Workato
-- MuleSoft
-- Zapier
-- Workday
-- Rippling
+- Where are we exposed?
+- Where can we save money?
+- Where should we invest?
+- What story do we tell the board or investors?
 
-## What it includes
+## What this repo proves
 
-- runnable Node CLI for synthetic benchmark summaries
-- JSON fixture with exposure, savings, and investment lanes
-- static proof page in site/index.html
-- CI with Node's built-in test runner
-- synthetic data only; no credentials, customer data, or external API calls
+- Normalizes 24 named platform and company signals into a comparable operating view.
+- Scores exposure, savings, and investment lanes from deterministic fixture data.
+- Produces a board-safe static evidence surface without requiring live credentials or tenant access.
+- Makes the shared Kinetic Gain pattern explicit: normalize signals, score risk, route next actions, and package proof.
+
+## Public surface
+
+- Live: https://mizcausevic-dev.github.io/workforce-revenue-platform-risk-pack/
+- Portfolio: https://portfolio.kineticgain.com/
 
 ## Local run
 
-`powershell
+```bash
 npm test
-npm run demo
 npm run build
-`
+```
 
-## Output shape
+## Security boundary
 
-`json
-{
-  "product": "Workforce Revenue Platform Risk Pack",
-  "signals": ["Salesforce", "HubSpot", "Gainsight", "ChurnZero", "dbt", "Databricks", "Looker", "Sigma", "Microsoft Entra ID", "Palo Alto", "Wiz", "SailPoint", "Saviynt", "GitHub and GitLab", "Terraform", "Pulumi", "Datadog", "New Relic", "ServiceNow", "Workato", "MuleSoft", "Zapier", "Workday", "Rippling"],
-  "averageScore": 85,
-  "priorityLane": "investment"
-}
-`
-
-## Kinetic Gain fit
-
-This repo strengthens the portfolio's Platform and Company Signals layer without creating more Hostinger subdomains. The public repo itself is the proof artifact; the portfolio atlas reads the repo metadata and keeps the signal counts aligned.
+This public repo uses synthetic fixture data only. Do not add customer tenant exports, secrets, employee records, financial records, tokens, or private operational evidence to the repository.

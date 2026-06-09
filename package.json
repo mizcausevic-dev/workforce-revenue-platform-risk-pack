@@ -5,7 +5,7 @@
   "scripts": {
     "demo": "node src/index.mjs fixtures/sample.json --format summary",
     "test": "node --test",
-    "build": "node src/index.mjs fixtures/sample.json --format json > site/report.json"
+    "build": "node src/index.mjs fixtures/sample.json --site site/report.json"
   },
   "name": "workforce-revenue-platform-risk-pack"
 }
